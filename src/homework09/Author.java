@@ -20,4 +20,8 @@ public class Author {
     public String getTotalName() {
         return this.name + " " + this.surname;
     }
+
+    public String toString() {
+        return ", автор = " + getTotalName();
+    }
 }
