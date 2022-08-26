@@ -21,7 +21,8 @@ public class Author {
         return this.name + " " + this.surname;
     }
 
+    @Override
     public String toString() {
-        return ", автор = " + getTotalName();
+        return getTotalName();
     }
 }
